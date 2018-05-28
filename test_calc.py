@@ -7,7 +7,7 @@ class TestCalc(unittest.TestCase):
     result = calc.add(10,5)
     self.assertEqual(result, 15)
 
-  def test_divide(self):^
+  def test_divide(self):
     resultD = calc.divide(15,5)
     self.assertEqual(resultD, 3)
 
