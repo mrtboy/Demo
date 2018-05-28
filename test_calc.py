@@ -9,7 +9,7 @@ class TestCalc(unittest.TestCase):
 
   def test_divide(self):
     resultD = calc.divide(15,5)
-    self.assertEqual(resultD, 3)
+    self.assertEqual(resultD, 33)
 
   def test_substract(self):
     resultS = calc.subtract(10,5)
